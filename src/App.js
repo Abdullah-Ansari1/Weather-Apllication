@@ -52,7 +52,7 @@ const App = () => {
     </div>
   </div>
 {loader?<div><CurrentData main={main} temperature={temperature} data={data} location={location}/>
-<h1>Forcast</h1>
+<h1>Forecast</h1>
 <ForecastData forData={forData}/>
 </div>
 :"Loading..."}
