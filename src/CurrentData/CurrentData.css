@@ -1,0 +1,65 @@
+.weather .header {
+    border-radius: 5px 5px 0 0;
+    padding: 20px 0;
+    background: #dd5555;
+    text-align: center;
+    color: #fff;
+    font-size: 3.125em;
+  }
+  .weather article {
+    text-align: center;
+    padding: 5px 0;
+  }
+
+
+  .locations {
+    padding: 30px;
+    text-align: center;
+  }
+  .locations .avatar {
+    border-radius: 50%;
+  }
+  .locations .avatar img {
+    border-radius: 50%;
+  }
+  .locations .details {
+    margin-top: 30px;
+  }
+  .locations .btn {
+    margin-top: 30px;
+  }
+
+.small-icon{
+  border: 1px solid;
+  max-width: 220px;
+  padding: 2px;
+  border-radius: 8px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.extra-data{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .extra-data{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .extra-data{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 0;
+    justify-content: center;
+  }
+  .small-icon{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+}

@@ -1,0 +1,44 @@
+.forecast-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  .forecast-row {
+    display: block;
+  }
+}
+
+  .weather .header {
+    border-radius: 5px 5px 0 0;
+    padding: 20px 0;
+    background: #243b56;
+    text-align: center;
+    color: #fff;
+    font-size: 3.125em;
+  }
+  .weather article {
+    text-align: center;
+    padding: 5px 0;
+  }
+
+
+  .locations {
+    padding: 30px;
+    text-align: center;
+  }
+  .locations .avatar {
+    border-radius: 50%;
+  }
+  .locations .avatar img {
+    border-radius: 50%;
+  }
+  .locations .details {
+    margin-top: 30px;
+  }
+  .locations .btn {
+    margin-top: 30px;
+  }
+.forecast{
+  width: 100%
+}
