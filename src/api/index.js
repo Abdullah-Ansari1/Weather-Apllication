@@ -3,7 +3,7 @@ import axios from "axios";
 const url= 'https://weatherapi-com.p.rapidapi.com/forecast.json';
 const options = {
   headers: {
-    'X-RapidAPI-Key': 'ad019bf606mshb944a0e000faed5p1aa960jsn2803becdad0b',
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
   }
 };
