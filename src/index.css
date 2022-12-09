@@ -61,6 +61,7 @@ background-color: #bfbfbf;
   background-color:#243b56;
   padding: 2px;
   margin-left: 5px;
+  max-width: 80vw;
   color: azure;
   border-radius: 5px;
   font-size: large;

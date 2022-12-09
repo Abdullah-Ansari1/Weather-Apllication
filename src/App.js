@@ -42,7 +42,7 @@ const App = () => {
         <li>       
   <h3>Select country</h3>
   <select onChange={(e)=>handleChange(e)} className="selection-box">
-    <option value="">Pakistan</option>
+    <option value="Pakistan">Pakistan</option>
     {countries.map((item,index)=>(
     <option value={item} key={index}>{item}</option>
     ))}

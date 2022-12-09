@@ -9,7 +9,11 @@ const options = {
 };
 const days='3';
 export const fetchFromAPI = async (q) => {
-    const { data } = await axios.get(url,{...options,params:{q,days}});
+try {
+  const { data } = await axios.get(url,{...options,params:{q,days}});
 
-    return data;
+  return data;
+} catch (error) {
+  console.log(error);
+}
 }
